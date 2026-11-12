@@ -1,0 +1,1 @@
+{"schema": "cell-security/1", "event": "identity_request", "layer": "nas", "identity_type": "imsi", "rat": "LTE"}

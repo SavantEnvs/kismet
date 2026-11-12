@@ -1,0 +1,1 @@
+{"schema": "cell-security/1", "event": "redirect", "layer": "rrc", "redirect": "geran", "release_cause": "cs_fallback_high_priority", "redirect_arfcn": 512, "rat": "LTE", "tac": 1, "cell_id": 2}

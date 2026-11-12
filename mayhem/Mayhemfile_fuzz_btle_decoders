@@ -1,0 +1,8 @@
+project: savantenvs/kismet
+target: fuzz_btle_decoders
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_btle_decoders/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_btle_decoders
+    libfuzzer: true

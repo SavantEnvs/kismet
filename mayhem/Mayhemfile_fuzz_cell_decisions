@@ -1,0 +1,8 @@
+project: savantenvs/kismet
+target: fuzz_cell_decisions
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_cell_decisions/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_cell_decisions
+    libfuzzer: true

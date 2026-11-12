@@ -1,0 +1,1 @@
+{"schema": "cell-security/1", "event": "null_security", "layer": "rrc", "ciphering": "eea0", "integrity": "eia0", "mcc": "001", "mnc": "01", "tac": 1, "cell_id": 2, "rat": "LTE"}
